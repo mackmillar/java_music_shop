@@ -4,8 +4,8 @@ public class Piano extends Instrument {
 
     private String size;
 
-    public Piano(double purchasedprice, double saleprice, InstrumentType instrumentType, String size) {
-        super(purchasedprice, saleprice, instrumentType);
+    public Piano(String sound, double purchasedprice, InstrumentType instrumentType, String size) {
+        super(sound, purchasedprice, instrumentType);
         this.size = size;
     }
 }

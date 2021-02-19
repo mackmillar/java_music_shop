@@ -4,8 +4,8 @@ public class Trumpet extends Instrument {
 
     private int valves;
 
-    public Trumpet(double purchasedprice, double saleprice, InstrumentType instrumentType, int valves) {
-        super(purchasedprice, saleprice, instrumentType);
+    public Trumpet(String sound, double purchasedprice, InstrumentType instrumentType, int valves) {
+        super(sound, purchasedprice,  instrumentType);
         this.valves = valves;
     }
 }

@@ -1,13 +1,11 @@
 package items;
 
-public class InstrumentType {
+public enum InstrumentType {
 
-    STRINGS,
+    STRING,
     WOODWIND,
     BRASS,
     PERCUSSION,
     KEYS;
-
-
 
 }

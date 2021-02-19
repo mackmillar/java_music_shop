@@ -4,8 +4,8 @@ public class DrumKit extends Instrument {
 
     private String brand;
 
-    public DrumKit(double purchasedprice, double saleprice, InstrumentType instrumentType, String brand) {
-        super(purchasedprice, saleprice, instrumentType);
+    public DrumKit(String sound, double purchasedprice, InstrumentType instrumentType, String brand) {
+        super(sound, purchasedprice, instrumentType);
         this.brand = brand;
     }
 
