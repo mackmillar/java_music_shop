@@ -29,5 +29,12 @@ public abstract class Instrument implements IPlay {
         return saleprice;
     }
 
+    public double getPurchasedprice() {
+        return purchasedprice;
+    }
+    public InstrumentType getInstrumentType() {
+        return instrumentType;
+    }
+
 
 }
